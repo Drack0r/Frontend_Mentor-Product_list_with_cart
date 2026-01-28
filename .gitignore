@@ -1,0 +1,11 @@
+# DS_Store file
+.DS_Store
+
+# Temporary files
+tmp/
+
+# Design files
+design/
+
+# README Template
+README-template.md
