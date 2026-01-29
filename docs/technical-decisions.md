@@ -51,15 +51,30 @@
 
 - **Folder organization**
 
-```js
-// To do
+```txt
+root/
+├── docs/                # Technical documentation
+├── public/              # Static assets served directly
+│   ├── images/          # Product images, icons (Frontend Mentor assets)
+│   └── fonts/           # Local font files for optimal performance
+├── src/                 # Application source code
+│   ├── components/      # Reusable React components with co-located tests
+│   ├── styles/          # Global Sass variables, mixins, and base styles
+│   ├── hooks/           # Custom React hooks for cart and state logic
+│   ├── utils/           # Pure helper functions and utilities
+│   ├── App.jsx          # Main application component
+│   └── main.jsx         # Application entry point
+├── .gitignore           # Git ignore rules
+├── data.json            # Static product data (Frontend Mentor provided)
+├── eslint.config.js     # ESLint configuration for code quality
+├── index.html           # HTML template with Vite integration
+├── package-lock.json    # Locked dependency versions
+├── package.json         # Project dependencies and scripts
+├── README.md            # Project overview and setup instructions
+└── vite.config.js       # Vite bundler configuration
+
 ```
 
-- `src/`: main source code
-- `assets/`: images and static resources
-- `components/`: reusable React components
-- `docs/`: technical documentation and decisions
-- Tests: co-located with components
 - **Naming conventions**
   - Files: kebab-case
   - Components: PascalCase with descriptive names
