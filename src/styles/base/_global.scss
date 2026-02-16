@@ -1,0 +1,10 @@
+@use "../utils/variables" as *;
+
+body {
+  padding: $spacing-300;
+  background-color: $rose-50;
+}
+
+#page {
+  min-height: calc(100vh - 48px);
+}
