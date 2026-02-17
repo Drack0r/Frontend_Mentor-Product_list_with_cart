@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const StyledTitle = styled.h1`
-  margin-bottom: ${({ theme }) => theme.spacing.spacing400};
-  font-size: ${({ theme }) => theme.textPresets.preset1.fontSize};
-  font-weight: ${({ theme }) => theme.textPresets.preset1.fontWeight};
-  line-height: ${({ theme }) => theme.textPresets.preset1.lineHeight};
+  margin-bottom: var(--spacing-400);
+  font-size: var(--preset1-font-size);
+  font-weight: var(--preset1-font-weight);
+  line-height: var(--preset1-line-height);
 `;
 
 function Title({ children }) {

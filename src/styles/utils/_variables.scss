@@ -1,23 +1,48 @@
-/* 1. Colors */
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #c73b0f;
+  --color-rose-900: #260f08;
+  --color-rose-500: #87635a;
+  --color-rose-400: #ad8a85;
+  --color-rose-300: #caafa7;
+  --color-rose-100: #f5eeec;
+  --color-rose-50: #fcf8f6;
+  --color-green: #1ea575;
 
-$white: #fff;
-$black: #000;
-$red: #c73b0f;
-$rose-900: #260f08;
-$rose-500: #87635a;
-$rose-400: #ad8a85;
-$rose-300: #caafa7;
-$rose-100: #f5eeec;
-$rose-50: #fcf8f6;
-$green: #1ea575;
+  /* Spacing */
+  --spacing-1100: 88px;
+  --spacing-500: 40px;
+  --spacing-400: 32px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
 
-/* 2. Spacing */
+  /* Typography */
+  --font-family: "Red Hat Text", sans-serif;
+  --font-size: 16px;
+  --font-weight: 600;
+  --line-height: 1.5;
 
-$spacing-1100: 88px;
-$spacing-500: 40px;
-$spacing-400: 32px;
-$spacing-300: 24px;
-$spacing-200: 16px;
-$spacing-150: 12px;
-$spacing-100: 8px;
-$spacing-50: 4px;
+  /* Text Presets */
+  --preset1-font-size: 2.5rem;
+  --preset1-font-weight: 700;
+  --preset1-line-height: 1.2;
+
+  --preset2-font-size: 1.5rem;
+  --preset2-font-weight: 700;
+  --preset2-line-height: 1.25;
+
+  --preset3-font-size: 1rem;
+  --preset3-font-weight: 600;
+  --preset3-line-height: 1.5;
+
+  --preset4-font-size: 0.875rem;
+  --preset4-font-weight: 400;
+
+  --preset4-bold-font-size: 0.875rem;
+  --preset4-bold-font-weight: 600;
+}
